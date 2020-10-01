@@ -37,6 +37,7 @@ textarea
     margin-bottom: 10px;
     resize: none;
     outline: none;
+    transition: .5s;
 }
 
 input[type="submit"], button
@@ -60,4 +61,9 @@ button
 {
     color: #333;
     background-color: transparent;
+}
+
+.btn
+{
+    display: none;
 }
