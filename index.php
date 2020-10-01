@@ -31,7 +31,9 @@
         <form class="body" action="post_comment.php" method="POST">
             <input type="text" name="name" value="Your Name"><br>
             <textarea name="comment" cols="50" rows="2">Enter your Comment</textarea>
-            <input type="submit" value="Comment">
+            <div class="btn">
+                <input type="submit" value="Comment">
+            </div>
         </form>
     </div>
 
