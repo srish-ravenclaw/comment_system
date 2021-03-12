@@ -1,2 +1,2 @@
 # comment_system
-A repository to maintain the comment system project
+A web page just to do the comments using php and html.
