@@ -23,9 +23,19 @@
 ?>
 
 <html>
-    <form action="post_comment.php" method="POST">
-        <input type="text" name="name" value="Your Name"><br>
-        <textarea name="comment" cols="50" rows="2">Enter your Comment</textarea>
-        <input type="submit" value="Comment">
-    </form>
+    <head>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <div class="container">
+        <h2>Leave Us a Comment</h2>
+        <form class="body" action="post_comment.php" method="POST">
+            <input type="text" name="name" value="Your Name"><br>
+            <textarea name="comment" cols="50" rows="2">Enter your Comment</textarea>
+            <div class="btn">
+                <input type="submit" value="Comment">
+            </div>
+        </form>
+    </div>
+
+    <script src='plugin.js'></script>
 </html>
